@@ -89,11 +89,9 @@ sfdx force:org:open
 
 3. In **Setup**, under **User**, activate the **Knowledge User** setting..
 
-4. In **Setup**, under **User**, activate the **Knowledge User** setting.
+4. In **Setup**, under **Knowledge**, Enable Lightning Knowledge and create the fields as specified in the project guide.
 
-5. In **Setup**, under **Knowledge**, Enable Lightning Knowledge and create the fields as specified in the project guide.
-
-6. Import Knowledge data Using Salesforce's API:
+5. Import Knowledge data Using Salesforce's API:
 
 -   Use the Knowledge__cs JSON file from the data folder. 
 -   Using Salesforce's API, Uploade the data [Lightning Platform API Basics](https://trailhead.salesforce.com/en/content/learn/modules/api_basics).
