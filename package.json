@@ -1,8 +1,8 @@
 {
-    "name": "ebikes-lwc",
+    "name": "joe-coffee",
     "private": true,
     "version": "1.0.0",
-    "description": "EBikes Sample App - Lightning Web Components",
+    "description": "Joe Coffee Community",
     "scripts": {
         "lint": "npm run lint:lwc && npm run lint:aura",
         "lint:lwc": "eslint **/lwc/**",
@@ -15,11 +15,11 @@
         "prettier:verify": "prettier --list-different '**/*.{cmp,component,css,html,js,json,md,page,yaml,yml}'",
         "postinstall": "node bin/check-version.js"
     },
-    "author": "salesforce.com",
+    "author": "gminero@coveo.com",
     "license": "Apache-2.0",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/trailheadapps/ebikes-lwc"
+        "url": "git+https://github.com/gminero/joe-coffee"
     },
     "engines": {
         "node": ">= 8.9.4",
