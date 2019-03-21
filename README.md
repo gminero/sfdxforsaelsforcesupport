@@ -1,9 +1,8 @@
 ## Joe Coffee Project
 
-https://github.com/gminero/joe-coffee.git
 ![JoeCoffeeLogo](JoesLogo.png)
 
-Joes Coffee is a sample application that is used by Coveo for onboarding our partners. It allows you to demonstrate your development sills as well as your resourcefullness. Joes Coffee is a fictitious Coffee Shop, The application helps Joe manage his online community for FAQ's and offers them a rich user experience.
+Joes Coffee is a sample application that is used by Coveo for onboarding partners. It allows partners to demonstrate their development & resourcefullness skills while learning to do a basic Coveo implementation. Joes Coffee is a fictitious Coffee Shop, the application helps Joe manage his online community for FAQ's and offers them a rich user experience while using Coveo as their main community Search.
 
 ## Table of contents
 
@@ -63,27 +62,24 @@ sfdx force:org:create -s -f config/project-scratch-def.json -a joescoffee
 sfdx force:source:push
 ```
 
-6. Assign the **ebikes** permission set to the default user:
+6. Under the siteAdmin force-app/main/default/sites/Joes_Coffee.site-meta.xml, Assign your scratchorg's user to the **siteAdmin** XML node 
 
 ```
-sfdx force:user:permset:assign -n ebikes
+<siteAdmin>SratchOrgUserName</siteAdmin>
 ```
+7. In **Setup**, under **User**, activate the **Knowledge User** setting.
 
-7. Load sample Knowledge Articles:
+8. Load sample Knowledge Articles:
 
 ```
 sfdx force:data:tree:import --plan ./data/sample-data-plan.json
 ```
 
-8. Open the scratch org:
+9. Open the scratch org:
 
 ```
 sfdx force:org:open
 ```
-
-9. In **Setup**, under **Themes and Branding**, activate the **Lightning Lite** theme.
-
-10. In App Launcher, select the **E-Bikes** app.
 
 ## Seting up your Environment for Joes Coffee using a Developer Org
 
@@ -91,11 +87,11 @@ sfdx force:org:open
 
 2. Enable MyDomain in your DE org. Instructions to do this are [here](https://trailhead.salesforce.com/modules/identity_login/units/identity_login_my_domain).
 
-3. Click [this link](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tB0000000KAfOIAW) to install the E-Bikes unlocked package in your DE org.
+3. In **Setup**, under **User**, activate the **Knowledge User** setting..
 
-4. Select **Install for All Users**
+4. In **Setup**, under **User**, activate the **Knowledge User** setting.
 
-5. In **Setup**, under **Themes and Branding**, activate the **Lightning Lite** theme.
+5. In **Setup**, under **Knowledge**, Enable Lightning Knowledge and create the fields as specified in the project guide.
 
 6. Import Knowledge data Using Salesforce's API:
 
