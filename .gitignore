@@ -8,6 +8,8 @@
 # LWC VSCode autocomplete
 jsconfig.json
 
+#Key
+env/
 # Logs
 logs
 *.log
