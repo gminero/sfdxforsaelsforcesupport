@@ -5,7 +5,7 @@
             "origin_url__c": "https://coffee.stackexchange.com/questions/2780/general-how-to-arduino-based-pid-for-saeco-aroma",
             "long_summary__c": "I have 2 spare Arduino R3 Unos lying around and have heard a lot of positive results from folks who have PID'ed their Silvias, Via Venezias, etc. How would I go about PIDing my Saeco Aroma with my R3 Uno? (software, installation, etc.)nnnI have seen many people playing with their Arduino's for robot control, industrial control and even for architectural projects. It seems easy to play with Raspberry Pi and Arduino for such projects.nSo after I've seen this question here, I have take a look at it.nI found a useful demo here. It has some links including the libraries and the code in German in the video explanation. Unfortunately, the links are broken. Maybe you can try to e-mail them.nAnyhow, if you start a garage project, it should not be that difficult (in theory). There must be a few sensors; some actuators to pump the water through heaters; as well as a u00b5C or a cheap good-old u00b5P like Motorola 68k or an Arduino-like u00b5P recently.nn",
             "topic__c": "espresso",
-            "UrlName": "How-would-I-go-about-PIDing-my-Saeco-Aroma-with-my-R3-Uno?",
+            "UrlName": "How-would-I-go-about-PIDing-my-Saeco-Aroma-with-my-R3-Uno",
             "attributes": {
                 "referenceId": "ref0",
                 "type": "Knowledge__kav"
