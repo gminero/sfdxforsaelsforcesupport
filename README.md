@@ -8,7 +8,7 @@ Joes Coffee is a sample application that is used by Coveo for onboarding partner
 
 -   Installation Instructions
 
-    -   [Setting up Joe Coffee using Salesforce DX](#setting-up-JoeCoffee-using-salesforce-dx)
+    -   [Setting up Joe Coffee using Salesforce DX](#setting-up-your-environment-for-joes-coffee-using-salesforcedx)
 
 
 -   [Project Walkthrough](#project-walkthrough)
@@ -94,8 +94,8 @@ sfdx force:org:open
 
 4. In **Setup**, under **Knowledge**, Enable Lightning Knowledge and create the fields as specified in the project guide.
 
-5. Import Knowledge data Using Salesforce's API:
+5. Import Knowledge data Using Salesforce's API after having created the necessary custom fields on the object:
 
 -   Use the Knowledge__cs JSON file from the data folder. 
--   Using Salesforce's API, Uploade the data [Lightning Platform API Basics](https://trailhead.salesforce.com/en/content/learn/modules/api_basics).
--   After having uploaded the content, th articles will still need to be published, this can be easily achieved using APEX.
+-   Using Salesforce's API, Upload the data [Lightning Platform API Basics](https://trailhead.salesforce.com/en/content/learn/modules/api_basics).
+-   After having uploaded the content, the articles will still need to be published, this can be easily achieved using APEX (or the UI)
