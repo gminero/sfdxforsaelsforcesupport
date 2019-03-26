@@ -56,26 +56,29 @@ cd joe-cofee
 sfdx force:org:create -s -f config/project-scratch-def.json -a joescoffee
 ```
 
-5. Push the app to your scratch org:
+5. Under the siteAdmin force-app/main/default/sites/Joes_Coffee.site-meta.xml, Assign your scratchorg's user to the **siteAdmin** XML node 
+
+```
+<siteAdmin>SratchOrgUserName</siteAdmin>
+```
+
+6. Push the app to your scratch org:
 
 ```
 sfdx force:source:push
 ```
 
-6. Under the siteAdmin force-app/main/default/sites/Joes_Coffee.site-meta.xml, Assign your scratchorg's user to the **siteAdmin** XML node 
-
-```
-<siteAdmin>SratchOrgUserName</siteAdmin>
-```
 7. In **Setup**, under **User**, activate the **Knowledge User** setting.
 
-8. Load sample Knowledge Articles:
+8. Ensure that the Sys admin Profile has read/write access to the cusotm fields (origin_url__c, long_summary__c, topic__c)
+
+9. Load sample Knowledge Articles:
 
 ```
 sfdx force:data:tree:import --plan ./data/sample-data-plan.json
 ```
 
-9. Open the scratch org:
+10. Open the scratch org:
 
 ```
 sfdx force:org:open
