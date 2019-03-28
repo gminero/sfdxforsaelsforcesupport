@@ -1,17 +1,9 @@
-## Joe Coffee Project
+## Joes Coffee Project
 
 ![JoeCoffeeLogo](JoesLogo.png)
 
 Joes Coffee is a sample application that is used by Coveo for onboarding partners. It allows partners to demonstrate their development & resourcefullness skills while learning to do a basic Coveo implementation. Joes Coffee is a fictitious Coffee Shop with a striving community that helps Joe manage his online community for FAQ's and offers them a rich user experience while using Coveo as their main community Search.
 
-## Table of contents
-
--   Installation Instructions
-
-    -   [Setting up Joe Coffee using Salesforce DX](#setting-up-your-environment-for-joes-coffee-using-salesforcedx)
-
-
--   [Project Walkthrough](#project-walkthrough)
 
 ## Installation Instructions
 
