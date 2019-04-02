@@ -1,14 +1,13 @@
 {
-    "orgName": "JoeCoffee",
+    "orgName": "knowledgeissue",
     "edition": "Developer",
-    "features": ["Communities", "Sites", "SiteDotCom", "Knowledge"],
+    "features": ["Knowledge"],
     "hasSampleData": "false",
     "settings": {
         "orgPreferenceSettings": {
             "s1DesktopEnabled": true,
             "selfSetPasswordInApi": true,
             "s1EncryptedStoragePref2": false,
-            "networksEnabled": true,
             "chatterEnabled": true                       
         },
         "knowledgeSettings":{
